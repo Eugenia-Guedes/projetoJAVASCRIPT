@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxo - Admin login</title>
+  <link rel="shortcut icon" href="images/barco2.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/default.css" />
+ </head>
+
+<body>
+    <div class="page">
+        <header>
+          <div id="title">
+            <img src="images/barco1.png" alt="ícone de barco" />
+            <div class="headtitle">
+              <h1>Luxo</h1>
+              <h2>Aluguel de iates</h2>
+            </div>
+          </div>
+    
+          <nav>
+            <ul class="navmenu">
+              <li><a href="index.html">Página inicial</a></li>
+              <li><a href="aluguel.html">Aluguel de iates</a></li>
+              <li><a href="destinos.html">Destinos</a></li>
+              <li><a href="tripulacao.html">Tripulação</a></li>
+              <li><a href="contato.html">Contato</a></li>
+              <li><a href="admin.html" class="accent">Admin</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <main>
+            <div class="pagtitle">
+              <div class="bgtitle"></div>
+              <h2>Administração</h2>
+            </div>
+    <form class="login-form">
+        <label for="email">E-mail</label>
+        <input type="email" id="email" placeholder="">
+        <br>
+        <br>
+        <label for="senha">Senha</label>
+        <br>
+        <input type="password" id="senha" placeholder="">
+        <br>
+        <br>
+        <div class="buttons">
+        <button type="button" class="button" id='btnLogin'>Entrar</button>
+        </div>
+    </form>
+
+        </main>
+    </div>
+
+        <footer>
+        <p>© 2023 por Luxo aluguel de iates</p>
+        </footer>
+
+    <script src="jquery-3.6.4.min.js"></script>
+    <script src="api.js"></script>
+    <script src="admin.js"></script>
+</body>
+</html>
+
